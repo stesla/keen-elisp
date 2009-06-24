@@ -1,9 +1,3 @@
-(defvar keen-select-enable-minor-mode t
-  "Whether or not to enable the minor mode in a new buffer by default.
-Default is t.
-
-To disable, (setq keen-select-enable-minor-mode nil) before requiring 'keen-select.")
-
 (defvar *keen-select-prefix-map* (make-sparse-keymap))
 (define-key *keen-select-prefix-map* "?" 'keen-select-display-bindings)
 
