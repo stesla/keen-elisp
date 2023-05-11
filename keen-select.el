@@ -29,6 +29,8 @@ a buffer to switch to.  If it returns nil, ELSE-FORM is evaluated."
 
 (defvar *keen-select-keymap* (make-sparse-keymap))
 (define-key *keen-select-keymap* [f8] *keen-select-prefix-map*)
+
+;;;###autoload
 (define-minor-mode keen-select-mode
   "Keen-Select minor mode. Keybindings to switch to common buffers."
   t
